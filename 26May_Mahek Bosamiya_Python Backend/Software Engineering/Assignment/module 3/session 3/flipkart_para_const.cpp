@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+
+class Product
+{
+public:
+    string productName;
+    float price;
+    float rating;
+
+    Product(string name, float p, float r)
+    {
+        productName = name;
+        price = p;
+        rating = r;
+    }
+
+    void displayInfo()
+    {
+        cout << "Product Name: " << productName << endl;
+        cout << "Price: " << price << endl;
+        cout << "Rating: " << rating << endl;
+    }
+};
+
+int main()
+{
+    Product p("Wireless Headphones", 1499, 4.5);
+
+    p.displayInfo();
+
+    return 0;
+}
