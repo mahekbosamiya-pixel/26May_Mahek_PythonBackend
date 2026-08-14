@@ -1,0 +1,3 @@
+tumbler|4500
+phone|67000
+glass case|5670
